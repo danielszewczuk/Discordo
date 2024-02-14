@@ -17,6 +17,7 @@ if [ $? -ne 0 ]; then
 fi
 echo "Installing latest version of Discord..."
 dpkg -i /tmp/discord.deb
+clear
 echo "Done! You now have latest Discord version!"
 rm -f /tmp/discord.deb
 exit 0
