@@ -1,2 +1,3 @@
 cd /bin
-curl https://discordorepo.vercel.app/discordo | sudo bash - 
+curl https://discordo.vercel.app/discordo --output discordo
+echo "Installed Discordo!"
