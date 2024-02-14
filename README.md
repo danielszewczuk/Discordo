@@ -9,7 +9,7 @@ Command that updates Discord (on linux).
 
 ### Install
 
-``` curl https://usediscordo.vercel.app/install.sh```
+``` curl https://usediscordo.vercel.app/install.sh | sudo bash - ```
 
 ### Usage
 
