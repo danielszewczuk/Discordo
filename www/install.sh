@@ -1,6 +1,6 @@
 clear
 if [ "$(id -u)" != "0" ]; then
-    echo "This script requires root acces. Try: sudo discordo"
+    echo "This script requires root acces."
     exit 1
 fi
 clear
