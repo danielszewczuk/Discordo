@@ -5,6 +5,6 @@ if [ "$(id -u)" != "0" ]; then
 fi
 clear
 cd /bin
-curl https://discordo.vercel.app/discordo --output discordo
-chmod +x discordo
+sudo curl https://discordo.vercel.app/discordo --output discordo
+sudo chmod +x discordo
 echo "Installed Discordo!"
